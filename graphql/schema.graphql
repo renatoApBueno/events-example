@@ -1,0 +1,7 @@
+type Document {
+  email: String
+}
+
+type Query {
+  getUserData(corporateDocument: String, page: Int): [Document]
+}
